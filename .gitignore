@@ -1,2 +1,4 @@
 **/*input.txt
 **/target
+**/zig-out
+.zig-cache
