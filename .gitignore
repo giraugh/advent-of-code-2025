@@ -2,3 +2,4 @@
 **/target
 **/zig-out
 .zig-cache
+**/*.o*

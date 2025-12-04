@@ -1,0 +1,14 @@
+@sample: build
+	./main.o sample.txt
+
+@input: build
+	./main.o input.txt
+
+build:
+	clang -o main.o main.c
+
+build-debug:
+	clang -g -O0 -o main.o main.c
+
+clean:
+	rm *.o
