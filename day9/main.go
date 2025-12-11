@@ -224,7 +224,6 @@ func main() {
 				iv := inwards_vecs[point_i]
 				red_side := Pos{x: point.x + iv.x, y: point.y + iv.y}
 				if !PointInRect(red_side, rect_area.rect) {
-					fmt.Printf("Skip %+v\n", rect_area.rect)
 					has_point = true
 					break
 				}
